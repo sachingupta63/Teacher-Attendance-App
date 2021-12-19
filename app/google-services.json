@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "406035608889",
+    "project_id": "institute-management-app-e1c30",
+    "storage_bucket": "institute-management-app-e1c30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406035608889:android:4d1bf0b274e2583143a4e8",
+        "android_client_info": {
+          "package_name": "com.example.institutemanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406035608889-gjq3i2o0ilapve8lr0c2onlj5mujpf3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1jy29myyTmn0hkD-CBl1a-f-OBzJZ3mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406035608889-gjq3i2o0ilapve8lr0c2onlj5mujpf3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

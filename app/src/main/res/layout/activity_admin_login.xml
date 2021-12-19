@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    tools:context=".adminLogin">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/welcome_admin"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="AddTeacherButton"
+            android:text="@string/add_remove_teacher"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/addstudentbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="AddStudentButton"
+            android:text="@string/add_remove_student"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/new_batch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="newBatch"
+            android:text="@string/new_batch_registration"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="attendanceRecord"
+            android:text="@string/attendance_record"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="logout"
+            android:text="@string/logout"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

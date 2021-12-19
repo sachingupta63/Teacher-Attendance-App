@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Institute Management App</string>
+    <string name="welcome_admin">Welcome: Admin</string>
+    <string name="add_remove_teacher">Add/Remove Teacher</string>
+    <string name="add_remove_student">Add/Remove Student</string>
+    <string name="new_batch_registration">New Batch Registration</string>
+    <string name="attendance_record">Attendance Record</string>
+    <string name="logout">Logout</string>
+    <string name="student_email">Student Email</string>
+    <string name="new_student_name">New Student Name</string>
+    <string name="id">ID</string>
+    <string name="password">Password</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="select_your_class">Select Your Class</string>
+    <string name="previous_records">Previous Records</string>
+    <array name="classes">
+        <item>CSE</item>
+        <item>IT</item>
+        <item>ECE</item>
+        <item>EC</item>
+        <item>ME</item>
+        <item>CE</item>
+    </array>
+    <array name="periods">
+        <item>Math</item>
+        <item>Phy</item>
+        <item>Che</item>
+        <item>C</item>
+        <item>Py</item>
+        <item>DSA</item>
+    </array>
+</resources>
