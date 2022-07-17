@@ -1,1 +1,1 @@
-This is a Teacher Attendancw App 
+This is a Teacher Attendance App 
