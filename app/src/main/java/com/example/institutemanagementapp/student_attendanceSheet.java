@@ -84,18 +84,6 @@ public class student_attendanceSheet extends AppCompatActivity {
         ArrayAdapter<String> adapter=new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,android.R.id.text1,studentlist);
         listView.setAdapter(adapter);
 
-        /*try {
-            average=(float)(P*100)/count;
-            String avg=Float.toString(average);
-            t.setText("Your Attendance is : " +avg+"%");
-            if (average>=75){
-                t.setTextColor(Color.GREEN);
-            }
-            else {
-                t.setTextColor(Color.RED);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
+
     }
 }

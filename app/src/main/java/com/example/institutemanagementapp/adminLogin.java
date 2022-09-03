@@ -38,8 +38,7 @@ public class adminLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_login);
-       // mToolbar=findViewById(R.id.ftoolbar);
-       // mToolbar.setTitle("Admin Dashboard : "+"("+date+")");
+
 
         Bundle bundle=getIntent().getExtras();
         college_name=bundle.getString("College","Wrong Value");

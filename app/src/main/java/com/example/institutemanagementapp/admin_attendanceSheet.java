@@ -49,8 +49,7 @@ public class admin_attendanceSheet extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_attendance_sheet);
-       // mToolbar=findViewById(R.id.ftoolbar);
-       // mToolbar.setTitle("Attendance Records");
+
         listView=findViewById(R.id.list);
         class_name=findViewById(R.id.spinner5);
        // date=findViewById(R.id.date);
