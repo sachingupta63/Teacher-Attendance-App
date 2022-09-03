@@ -1,5 +1,5 @@
 
-# This is a Teacher Attendance App 
+# This is a Attendance App 
 
 Through this you can take the attendence of the class.I used firebase for the database, also have the authentication feature, having three modules Admin, Teacher, and Students.
 
