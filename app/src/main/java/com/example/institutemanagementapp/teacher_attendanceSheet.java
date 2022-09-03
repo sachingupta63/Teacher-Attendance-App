@@ -35,7 +35,7 @@ public class teacher_attendanceSheet extends AppCompatActivity {
     DatabaseReference dbStudent;
     String required_date;
 
-
+// Fetching attendance all student based on date and Subject assigned to that teacher and of that batch
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -46,7 +46,7 @@ public class teacher_attendanceSheet extends AppCompatActivity {
         listView=findViewById(R.id.list);
         date=findViewById(R.id.date);
 
-
+        // Batch CSE2023
         Bundle bundle1=getIntent().getExtras();
         class_selected=bundle1.getString("selected_batch");
         college=bundle1.getString("College");
@@ -57,6 +57,7 @@ public class teacher_attendanceSheet extends AppCompatActivity {
 
     }
 
+    //Submit Button
     public void viewlist(View view){
         Userlist.clear();
         dbStudent=ref.child("Student");
@@ -65,6 +66,7 @@ public class teacher_attendanceSheet extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 for (DataSnapshot dsp: snapshot.getChildren()){
+                    //fetching sid from student module
                     Userlist.add(dsp.child("sid").getValue(String.class));
                 }
                 display_list(Userlist);
@@ -82,9 +84,10 @@ public class teacher_attendanceSheet extends AppCompatActivity {
     public void display_list(final ArrayList<String> userlist){
         Studentlist.clear();
         required_date=date.getText().toString();
-        dbAttendance=ref.child("Attendance").child(class_selected);
+        dbAttendance=ref.child("Attendance").child(class_selected); //class_selected = batch
         Studentlist.add("SID      "+"     Status ");
         for (Object sid: userlist){
+            //referencing date.sid.Subject(of Teacher).present
             dbAttendance.child(required_date).child(sid.toString()).child(tSubject).addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -93,6 +96,7 @@ public class teacher_attendanceSheet extends AppCompatActivity {
                         Studentlist.add(sid.toString() + "              " + p1);
                     }
 
+                    //Passing data to the adapter
                     list(Studentlist);
                 }
 

@@ -27,12 +27,6 @@ import Models.Attendance_sheet;
 public class adminLogin extends AppCompatActivity {
 
     String college_name,aUid;
-
-    //DatabaseReference ref;
-    //DatabaseReference dbStudent;
-    //DatabaseReference dbAttendance;
-    //DatabaseReference dbAdmin;
-    //Toolbar mToolbar;
     Bundle basket;
     private static long back_pressed;
 

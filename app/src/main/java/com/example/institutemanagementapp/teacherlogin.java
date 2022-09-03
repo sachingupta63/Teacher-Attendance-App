@@ -32,7 +32,6 @@ public class teacherlogin extends AppCompatActivity {
     private String tSubject;
     private String tClass;
     private String tUid;
-    //Toolbar mToolbar;
    private final ArrayList<String> categories=new ArrayList<>();
    private String date=new SimpleDateFormat("dd-MM-yyyy").format(new Date());
    Bundle bundle;
@@ -60,19 +59,6 @@ public class teacherlogin extends AppCompatActivity {
         spinner2.setAdapter(dataAdapter);
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference(college);
-
-       /* ref.child("Teacher").child(tUid).child("classes").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                tClass=snapshot.getValue(String.class);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(teacherlogin.this, "Sorry Can't get data", Toast.LENGTH_SHORT).show();
-            }
-        });*/
-
 
         ref.child("Batch").child(tClass).addValueEventListener(new ValueEventListener() {
             @Override
@@ -107,6 +93,7 @@ public class teacherlogin extends AppCompatActivity {
         });
 
     }
+    //Taking attendance Batch wise
 
     public void takeAttendanceButton(View view){
         Bundle basket=new Bundle();
@@ -119,6 +106,7 @@ public class teacherlogin extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //fetching previous record
     public void previous_records(View view){
         Bundle basket=new Bundle();
         basket.putString("selected_batch",item);
@@ -130,6 +118,8 @@ public class teacherlogin extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    //logout
     public void logoutTeacher(View view){
         Intent logout=new Intent(this,LoginActivity.class);
         logout.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);

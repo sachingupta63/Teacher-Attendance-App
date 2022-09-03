@@ -29,7 +29,6 @@ public class addTeacher extends AppCompatActivity {
     Spinner classes;
    // Button addButton;
     DatabaseReference databaseTeacher;
-   // Toolbar mToolbar;
     Bundle bundle;
 
 
@@ -50,8 +49,6 @@ public class addTeacher extends AppCompatActivity {
         subject=findViewById(R.id.editText4);
         classes=findViewById(R.id.spinner3);
         tPassword=findViewById(R.id.editText5);
-        //mToolbar=findViewById(R.id.ftoolbar);
-       // mToolbar.setTitle("Add/Remove Teacher");
 
     }
 
@@ -63,7 +60,7 @@ public class addTeacher extends AppCompatActivity {
         classname=classes.getSelectedItem().toString();
         tpass=tPassword.getText().toString();
 
-        if(!TextUtils.isEmpty(tId.getText().toString()) || !TextUtils.isEmpty(temail)){
+        if(!TextUtils.isEmpty(tId.getText().toString()) && !TextUtils.isEmpty(temail) && !TextUtils.isEmpty(subject.getText().toString())){
 
             Teacher teacher=new Teacher(tname,tid,sub,classname,tpass,temail);
             databaseTeacher.child("Teacher").child(tid).setValue(teacher);
@@ -77,7 +74,7 @@ public class addTeacher extends AppCompatActivity {
 
     public void removeTeacher(View view){
 
-        if(!TextUtils.isEmpty(tId.getText().toString()) || !TextUtils.isEmpty(tEmail.getText().toString())){
+        if(!TextUtils.isEmpty(tId.getText().toString()) && !TextUtils.isEmpty(tEmail.getText().toString())){
             tid=tId.getText().toString();
             temail=tEmail.getText().toString();
             databaseTeacher.child("Teacher").child(tid).setValue(null);

@@ -27,7 +27,6 @@ import java.util.HashMap;
 public class RegisterAdmin extends AppCompatActivity {
     EditText email_admin,pass_admin,name_admin;
     Button register_admin;
-    //FirebaseAuth auth;
     DatabaseReference firebaseDatabase;
 
     @Override
@@ -39,7 +38,6 @@ public class RegisterAdmin extends AppCompatActivity {
         name_admin=findViewById(R.id.register_name);
         register_admin=findViewById(R.id.Registerbutton);
 
-        //auth=FirebaseAuth.getInstance();
 
         register_admin.setOnClickListener(new View.OnClickListener() {
             @Override

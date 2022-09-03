@@ -106,9 +106,11 @@ public class admin_attendanceSheet extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String attendance="";
 
+                //traversing all the date
                 for (DataSnapshot dsp : snapshot.getChildren()){
+                    //adding date to array list
                     StudentList.add(dsp.getKey());
-                    for (DataSnapshot dp : dsp.getChildren()){
+                    for (DataSnapshot dp : dsp.getChildren()){  // getting all student attendance
 
                         attendance="";
 
@@ -116,12 +118,12 @@ public class admin_attendanceSheet extends AppCompatActivity {
                             attendance=attendance + d.getKey() + "=" + d.getValue() + "   ";
                         }
 
+                        //adding 19249  DSA=P   CP=P
                         StudentList.add(dp.getKey() + "      " + attendance);
                     }
                 }
-                /*for (Object sid: userList){
+                //passing data to ListView Adapter
 
-                }*/
                 list(StudentList);
             }
 
@@ -132,6 +134,7 @@ public class admin_attendanceSheet extends AppCompatActivity {
         });
     }
 
+    //Submit Button Clicked
     public void viewlist(View view){
         UserList.clear();
         dbStudent=ref.child("Student");

@@ -20,10 +20,7 @@ import java.util.ArrayList;
 
 public class student_attendanceSheet extends AppCompatActivity {
 
-   // public static int count=1,P=1,A=1;
-   // float average=(float) 0.0;
     TextView t;
-   // String p1,p2,p3,p4,p5,p6;
     String student_id,batch;
     ArrayList<String> dates=new ArrayList<>();
     DatabaseReference ref;
@@ -47,25 +44,28 @@ public class student_attendanceSheet extends AppCompatActivity {
 
         ref=FirebaseDatabase.getInstance().getReference(bundle.getString("College"));
 
-
+        //date is an arraylist which contain attendance
         dates.clear();
-        dates.add("  Date             "+ "Subjects=P/A  ");
+        dates.add("  Date           "+ "Subjects=P/A  ");
         dbAttendance=ref.child("Attendance").child(batch);
         dbAttendance.addListenerForSingleValueEvent(new ValueEventListener() {
             String attendance="";
+            //iterating over all dates
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot dsp: snapshot.getChildren()){
 
                     attendance="";
 
+                    //finding attendance
                      for (DataSnapshot sid : dsp.child(student_id).getChildren()) {
                          attendance=attendance + sid.getKey() + "=" + sid.getValue(String.class)+ "||";
 
                      }
-
+                    //format 3-09-2022  DSA=P || CP=P
                     dates.add(dsp.getKey() + "  " + attendance);
 
+                     //passing data to adapter
                     list(dates);
                 }
             }

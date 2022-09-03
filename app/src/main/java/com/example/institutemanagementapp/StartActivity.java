@@ -16,6 +16,7 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
         register_as_admin=findViewById(R.id.register_as_admin);
         login=findViewById(R.id.login);
+        //Register Button for Admin
         register_as_admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,6 +24,8 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Login Button
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

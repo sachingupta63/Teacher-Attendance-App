@@ -35,7 +35,6 @@ public class addStudent extends AppCompatActivity {
     String sname,sid,classname=" ",spass,semail;
     //Spinner classes;
     DatabaseReference databaseStudent;
-   // Toolbar mToolbar;
     Bundle bundle;
     Spinner spn;
 
@@ -55,8 +54,6 @@ public class addStudent extends AppCompatActivity {
         sId=findViewById(R.id.editText3);
         spn=findViewById(R.id.spinner3);
         sPassword=findViewById(R.id.editText4);
-       // mToolbar=findViewById(R.id.ftoolbar);
-       // mToolbar.setTitle("Add/Remove Student");
 
         ArrayAdapter<String> dataAdapter=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,batches);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
@@ -97,7 +94,7 @@ public class addStudent extends AppCompatActivity {
 
     public void addStudent(View view){
 
-        if((!TextUtils.isEmpty(sId.getText().toString()) || !TextUtils.isEmpty(sEmail.getText().toString())) && !TextUtils.isEmpty(classname)){
+        if((!TextUtils.isEmpty(sId.getText().toString()) && !TextUtils.isEmpty(sEmail.getText().toString())) && !TextUtils.isEmpty(classname)){
             semail=sEmail.getText().toString();
             sname=sName.getText().toString();
             sid=sId.getText().toString();

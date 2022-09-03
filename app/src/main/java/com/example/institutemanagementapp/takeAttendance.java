@@ -35,13 +35,11 @@ public class takeAttendance extends AppCompatActivity {
     String periodNo;
     ArrayList<String> selecteditems;
     ArrayList<String> nonselecteditems;
-    //Toolbar mToolbar;
 
-    ArrayList<String> ul;
-    ListView listView;
+//    ArrayList<String> ul;
+//    ListView listView;
     private ArrayAdapter adapter;
     ArrayList<String> Userlist=new ArrayList<>();
-    //ArrayList Usernames=new ArrayList<>();
 
     DatabaseReference ref;
     DatabaseReference dbAttendance;
@@ -52,9 +50,6 @@ public class takeAttendance extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_take_attendance);
-       // mToolbar=findViewById(R.id.takeattendancebar);
-       // mToolbar.setTitle("Attendance");
-        //period=findViewById(R.id.spinner4);
 
         selecteditems=new ArrayList<>();
         TextView classname=findViewById(R.id.textView);
@@ -120,6 +115,7 @@ public class takeAttendance extends AppCompatActivity {
             //ref=FirebaseDatabase.getInstance().getReference();
             dbAttendance=ref.child("Attendance").child(class_selected).child(date);
 
+            //Setting attendance
             for (String item: selecteditems){
                 Toast.makeText(this, "Attendance Created Successfully", Toast.LENGTH_SHORT).show();
                 nonselecteditems.remove(item);

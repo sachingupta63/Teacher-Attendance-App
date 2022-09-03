@@ -81,6 +81,8 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+    //Clicking Login Button
+
     public void onButtonClick(View view){
         college=college_name.getText().toString().toUpperCase();
         userid=username.getText().toString();
@@ -133,6 +135,8 @@ public class LoginActivity extends AppCompatActivity {
             });
 
     }
+
+    //Function To verify password
 
     public void verify(String dbpassword) {
         mDialog.dismiss();
