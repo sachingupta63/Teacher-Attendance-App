@@ -25,11 +25,11 @@ Through this you can take the attendence of the class.I used firebase for the da
 <center><img src="https://user-images.githubusercontent.com/72181528/188263711-5ac4b91e-03b1-471b-a99c-d6c95f2ede4c.jpg"  width=60% height=65% ></center>
 - ![Screenshot_2022-09-02-19-55-47-352_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263711-5ac4b91e-03b1-471b-a99c-d6c95f2ede4c.jpg)
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263714-f30bd0f8-90ac-4d6b-8940-8f17f2b7045a.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-58-40-551_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263714-f30bd0f8-90ac-4d6b-8940-8f17f2b7045a.jpg)
+<!-- <center><img src="https://user-images.githubusercontent.com/72181528/188263714-f30bd0f8-90ac-4d6b-8940-8f17f2b7045a.jpg"  width=60% height=65% ></center>
+- ![Screenshot_2022-09-02-19-58-40-551_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263714-f30bd0f8-90ac-4d6b-8940-8f17f2b7045a.jpg) -->
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263715-a5956051-7773-4236-938b-5d8ec71edac4.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-59-23-673_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263715-a5956051-7773-4236-938b-5d8ec71edac4.jpg)
+<!-- <center><img src="https://user-images.githubusercontent.com/72181528/188263715-a5956051-7773-4236-938b-5d8ec71edac4.jpg"  width=60% height=65% ></center>
+- ![Screenshot_2022-09-02-19-59-23-673_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263715-a5956051-7773-4236-938b-5d8ec71edac4.jpg) -->
 
 <center><img src="https://user-images.githubusercontent.com/72181528/188263717-bc697552-5788-464e-bc66-6baae9c5604f.jpg"  width=60% height=65% ></center>
 - ![Screenshot_2022-09-02-19-59-50-835_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263717-bc697552-5788-464e-bc66-6baae9c5604f.jpg)
