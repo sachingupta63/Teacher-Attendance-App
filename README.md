@@ -5,43 +5,57 @@ Through this you can take the attendence of the class.I used firebase for the da
 
 ## Preview
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263700-4e0b52d7-6e31-47ce-a6fa-c8e5b8d9bb22.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-49-55-100_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263700-4e0b52d7-6e31-47ce-a6fa-c8e5b8d9bb22.jpg)
-<center><img src="https://user-images.githubusercontent.com/72181528/188263701-615fd200-6b1c-432a-a70d-1fc7f0bc2f58.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-50-01-895_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263701-615fd200-6b1c-432a-a70d-1fc7f0bc2f58.jpg)
+<div align="center">
+<center><img src="https://user-images.githubusercontent.com/72181528/188460464-98c5629e-4163-4632-8b18-9a0e0bd30457.jpg"  width=60% height=65% ></center>
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263703-13375d1c-1fde-489b-99aa-a5bfa31bd670.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-50-23-454_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263703-13375d1c-1fde-489b-99aa-a5bfa31bd670.jpg)
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263705-34e507ec-5fc2-4490-8c38-2b15ed6bcb63.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-51-00-229_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263705-34e507ec-5fc2-4490-8c38-2b15ed6bcb63.jpg)
+<center><img src="https://user-images.githubusercontent.com/72181528/188460531-83a35287-86c7-436e-94c0-e4f039eac7f0.jpg"  width=60% height=65% ></center>
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263707-6f0ea379-8e6e-4801-8c91-8cba0811961d.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-51-05-096_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263707-6f0ea379-8e6e-4801-8c91-8cba0811961d.jpg)
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263709-e89f3ce5-ef09-4668-9fbf-694deef7093a"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-52-18-000_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263709-e89f3ce5-ef09-4668-9fbf-694deef7093a.jpg)
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263711-5ac4b91e-03b1-471b-a99c-d6c95f2ede4c.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-55-47-352_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263711-5ac4b91e-03b1-471b-a99c-d6c95f2ede4c.jpg)
+<center><img src="https://user-images.githubusercontent.com/72181528/188460746-acd7be3e-dc3d-48b7-8140-fc09fd2f6027.jpg"  width=60% height=65% ></center>
 
-<!-- <center><img src="https://user-images.githubusercontent.com/72181528/188263714-f30bd0f8-90ac-4d6b-8940-8f17f2b7045a.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-58-40-551_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263714-f30bd0f8-90ac-4d6b-8940-8f17f2b7045a.jpg) -->
 
-<!-- <center><img src="https://user-images.githubusercontent.com/72181528/188263715-a5956051-7773-4236-938b-5d8ec71edac4.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-59-23-673_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263715-a5956051-7773-4236-938b-5d8ec71edac4.jpg) -->
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263717-bc697552-5788-464e-bc66-6baae9c5604f.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-59-50-835_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263717-bc697552-5788-464e-bc66-6baae9c5604f.jpg)
+<center><img src="https://user-images.githubusercontent.com/72181528/188461051-a5d5ccd4-9282-45ab-9bef-951234a0a415.jpg"  width=60% height=65% ></center>
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263720-4757a0e9-4b65-4888-adbe-a32ce7423c1e.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-19-59-56-523_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263720-4757a0e9-4b65-4888-adbe-a32ce7423c1e.jpg)
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263721-5cb5aca3-7bf4-4e2d-9338-930498f0ffbe.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-20-01-04-062_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263721-5cb5aca3-7bf4-4e2d-9338-930498f0ffbe.jpg)
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263724-6f36a138-52d3-4fa9-9a16-22567412e4cd.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-20-02-01-441_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263724-6f36a138-52d3-4fa9-9a16-22567412e4cd.jpg)
+<center><img src="https://user-images.githubusercontent.com/72181528/188461318-715b8188-e26a-41c8-b248-75f12b216471.jpg"  width=60% height=65% ></center>
 
-<center><img src="https://user-images.githubusercontent.com/72181528/188263725-29fa9430-21dd-4f14-9034-ad9b983d54ac.jpg"  width=60% height=65% ></center>
-- ![Screenshot_2022-09-02-20-02-10-953_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188263725-29fa9430-21dd-4f14-9034-ad9b983d54ac.jpg)
+
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461562-103785e1-16fc-4c2b-8981-e08eba3ce126.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-24-36-903_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461562-103785e1-16fc-4c2b-8981-e08eba3ce126.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461582-2442173f-c52a-4e1f-a5bb-319cb14dc090.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-27-02-710_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461582-2442173f-c52a-4e1f-a5bb-319cb14dc090.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461616-43d6b59c-cfc6-4c0c-ba47-df2e7a476509.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-41-39-802_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461616-43d6b59c-cfc6-4c0c-ba47-df2e7a476509.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461695-069f54af-e1ba-4cd8-9142-425dcf02f2a8.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-42-07-029_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461695-069f54af-e1ba-4cd8-9142-425dcf02f2a8.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461721-0a968f77-2346-459d-8d6d-ec8d0232e6b2.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-42-20-346_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461721-0a968f77-2346-459d-8d6d-ec8d0232e6b2.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461745-73d934f0-ff4c-4c48-911f-435329027194.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-43-00-396_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461745-73d934f0-ff4c-4c48-911f-435329027194.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461773-ffa5d257-006f-4ce3-9d88-11b22ffece83.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-45-31-201_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461773-ffa5d257-006f-4ce3-9d88-11b22ffece83.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461762-8cc62090-191f-4203-8bb0-c4ed58e85074.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-44-49-853_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461762-8cc62090-191f-4203-8bb0-c4ed58e85074.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461796-eae6507d-8d30-47f7-997b-7d4833e4d2ec.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-47-16-492_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461796-eae6507d-8d30-47f7-997b-7d4833e4d2ec.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461804-c91ed983-580c-48cb-b298-9f7ef193fe23.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-48-56-022_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461804-c91ed983-580c-48cb-b298-9f7ef193fe23.jpg)
+
+<center><img src="https://user-images.githubusercontent.com/72181528/188461831-9fc938b1-4620-48ca-92ea-4e5769d6afe3.jpg"  width=60% height=65% ></center>
+![Screenshot_2022-09-05-18-49-05-214_com example institutemanagementapp](https://user-images.githubusercontent.com/72181528/188461831-9fc938b1-4620-48ca-92ea-4e5769d6afe3.jpg)
+
+</div>
