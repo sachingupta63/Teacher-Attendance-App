@@ -2,6 +2,11 @@
 # This is a Attendance App 
 
 Through this you can take the attendence of the class.I used firebase for the database, also have the authentication feature, having three modules Admin, Teacher, and Students.
+## Demo
+
+
+https://user-images.githubusercontent.com/72181528/188491346-1f0e1768-8269-4bfc-abff-6a9d43f8cdea.mp4
+
 
 ## Preview
 
